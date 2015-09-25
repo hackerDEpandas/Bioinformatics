@@ -20,9 +20,9 @@ class transcribe_DNA(object):
 	def test_DNA(self):
 
 		if list(set(self.dna)) == ['A', 'C', '\n', 'T', 'G']:
-      return True
-    else:
-      return False
+      			return True
+		else:
+      			return False
 
 genome = open('nucleotide.txt')
 genome_string = genome.read()
