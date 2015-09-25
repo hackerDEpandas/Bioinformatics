@@ -1,5 +1,3 @@
-import sys
-
 class count_nucleotides(object):
 
 	def __init__(self, string):
