@@ -1,17 +1,14 @@
 class reverse_DNA(object):
 
-
-
 	def __init__(self, dna):
-
 		self.dna = dna
-    self.reverse_compliment = []
+		self.reverse_compliment = []
 
-  def reversed_compliment(self):
+	def reversed_compliment(self):
 
-    for i in reversed(self.dna):
-
-      if i == 'A':
+		for i in reversed(self.dna):
+			
+			if i == 'A':
 				self.reverse_compliment.append('T')
 
 			elif i == 'T':
