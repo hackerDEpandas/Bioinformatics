@@ -14,4 +14,3 @@ def count_pairs(old, young, k, n):
 	
 print count_pairs(0,1,int(tup[1]), int(tup[0]))
 print datetime.now() - start_time
-
