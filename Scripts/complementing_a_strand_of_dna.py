@@ -2,9 +2,10 @@ from datetime import datetime
 start_time = datetime.now()
 genome = open('rosalind_revc.txt')
 genome_string = genome.read()
-rev_comp = []
 
+rev_comp = []
 string = genome_string.replace('\n', '')
+
 for i in reversed(string):
 	if i == 'A':
 		rev_comp.append('T')
@@ -15,5 +16,4 @@ for i in reversed(string):
 	else:
 		rev_comp.append('C')
 
-print ''.join(rev_comp)	
-
+print ''.join(rev_comp)
